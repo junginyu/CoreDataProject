@@ -11,6 +11,12 @@
 		EEF0E59528717C7200A4311F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0E59428717C7200A4311F /* ContentView.swift */; };
 		EEF0E59728717C7300A4311F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF0E59628717C7300A4311F /* Assets.xcassets */; };
 		EEF0E59A28717C7300A4311F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF0E59928717C7300A4311F /* Preview Assets.xcassets */; };
+		EEF0E5A128717C8400A4311F /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0E5A028717C8400A4311F /* DataController.swift */; };
+		EEF0E5A428717D3D00A4311F /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEF0E5A228717D3D00A4311F /* CoreDataProject.xcdatamodeld */; };
+		EEF0E5A928717F1C00A4311F /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0E5A528717F1C00A4311F /* Candy+CoreDataClass.swift */; };
+		EEF0E5AA28717F1C00A4311F /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0E5A628717F1C00A4311F /* Candy+CoreDataProperties.swift */; };
+		EEF0E5AB28717F1C00A4311F /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0E5A728717F1C00A4311F /* Country+CoreDataClass.swift */; };
+		EEF0E5AC28717F1C00A4311F /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF0E5A828717F1C00A4311F /* Country+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		EEF0E59428717C7200A4311F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEF0E59628717C7300A4311F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEF0E59928717C7300A4311F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEF0E5A028717C8400A4311F /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EEF0E5A328717D3D00A4311F /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
+		EEF0E5A528717F1C00A4311F /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EEF0E5A628717F1C00A4311F /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EEF0E5A728717F1C00A4311F /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EEF0E5A828717F1C00A4311F /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				EEF0E59228717C7200A4311F /* CoreDataProjectApp.swift */,
+				EEF0E5A528717F1C00A4311F /* Candy+CoreDataClass.swift */,
+				EEF0E5A628717F1C00A4311F /* Candy+CoreDataProperties.swift */,
+				EEF0E5A728717F1C00A4311F /* Country+CoreDataClass.swift */,
+				EEF0E5A828717F1C00A4311F /* Country+CoreDataProperties.swift */,
 				EEF0E59428717C7200A4311F /* ContentView.swift */,
+				EEF0E5A028717C8400A4311F /* DataController.swift */,
+				EEF0E5A228717D3D00A4311F /* CoreDataProject.xcdatamodeld */,
 				EEF0E59628717C7300A4311F /* Assets.xcassets */,
 				EEF0E59828717C7300A4311F /* Preview Content */,
 			);
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEF0E59528717C7200A4311F /* ContentView.swift in Sources */,
+				EEF0E5A928717F1C00A4311F /* Candy+CoreDataClass.swift in Sources */,
+				EEF0E5A128717C8400A4311F /* DataController.swift in Sources */,
+				EEF0E5AA28717F1C00A4311F /* Candy+CoreDataProperties.swift in Sources */,
+				EEF0E5AC28717F1C00A4311F /* Country+CoreDataProperties.swift in Sources */,
+				EEF0E5AB28717F1C00A4311F /* Country+CoreDataClass.swift in Sources */,
+				EEF0E5A428717D3D00A4311F /* CoreDataProject.xcdatamodeld in Sources */,
 				EEF0E59328717C7200A4311F /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +363,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEF0E5A228717D3D00A4311F /* CoreDataProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEF0E5A328717D3D00A4311F /* CoreDataProject.xcdatamodel */,
+			);
+			currentVersion = EEF0E5A328717D3D00A4311F /* CoreDataProject.xcdatamodel */;
+			path = CoreDataProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EEF0E58728717C7200A4311F /* Project object */;
 }
